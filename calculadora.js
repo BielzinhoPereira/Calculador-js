@@ -11,7 +11,7 @@ function calculadora (){
     let n2=  Number (prompt('Insira o segundo valor'));
     let resultado;
 
-    if (!n1 || n2) {
+    if (!n1 || !n2) {
         alert ('Erro - parametros inválidos!')
         calculadora();
     } else {
@@ -57,7 +57,7 @@ function calculadora (){
             alert('Digite uma opção válida!)')
             novaOperacao();
         }  
-        }
+    }
     }
     } /*
     
@@ -104,3 +104,5 @@ function calculadora (){
 
 
 calculadora();
+
+//amanha descubro o erro/
